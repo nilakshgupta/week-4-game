@@ -1,0 +1,38 @@
+
+*
+{
+	font-family: Arial,  Helvetica, sans-serif;
+	text-align: center;
+}
+body
+{
+	background-image: url(../Images/background_4.jpg);
+	
+}
+h1
+{
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 25px;
+	color: blue;
+	
+}
+.header
+{
+	background: #fff;
+}
+li{
+	color:green;
+	text-align: justify;
+	font-size: 20px;
+	line-height: 25px;
+}
+.margin
+{
+	margin-top: 20px;
+}
+.footer
+{
+	margin-bottom: 20px;
+	background: #fff;
+}

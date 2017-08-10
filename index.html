@@ -1,0 +1,84 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>The Crystal Game	</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="Assets/CSS/style.css">
+		<script  src="https://code.jquery.com/jquery-3.2.1.min.js"  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+			 <div class="col-md-12" style="margin-top: 20px; "> <audio id="myaudio">
+  </audio> </div>
+			</div>
+			<div class="row">
+			 <div class="col-md-2"> </div>
+			  <div class="col-md-8 header">
+			  	<h1>Crystal Collector!</h1>
+				  	<ol>
+				  		<li>You will be given a random number at the start of the game.</li>
+				  		<li>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</li>
+				  		<li>You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.</li>
+				  		<li>The value of each crystal is hidden from you until you click on it.</li>
+				  		<li>Each time when the game starts, the game will change the values of each crystal.</li>
+				  	</ol>	
+													
+			  </div>
+			  <div class="col-md-2"> </div>
+			</div>
+			
+			
+			<div class="row margin game">
+			  <div class="col-md-2"></div>
+			  <div class="col-md-4">
+			  		<div class="panel panel-success" >
+	  					<div class="panel-heading" style="background: green;">
+	   						<h3 class="panel-title" style="color:#fff;">Wins:</h3>
+	  					</div>
+	  						<div class="panel-body wins">0</div>
+					</div>
+			  </div>
+			  <div class="col-md-4">
+			  		<div class="panel panel-success" >
+	  					<div class="panel-heading" style="background: red;">
+	   						 <h3 class="panel-title" style="color:#fff;">Losses:</h3>
+	  					</div>
+	  						<div class="panel-body losses">0</div>
+					</div>
+			  </div>
+			  <div class="col-md-2"></div>
+			</div>
+			<div class="row game">
+			  <div class="col-md-2"></div>
+			  <div class="col-md-4">
+			  		<div class="panel panel-success">
+	  					<div class="panel-heading" style="background: #F08080;">
+	   						 <h3 class="panel-title" style="color:#fff;">Match This:</h3>
+	  					</div>
+	  						<div class="panel-body matchThis"></div>
+					</div>
+			  </div>
+			  <div class="col-md-4">
+			  		<div class="panel panel-success">
+	  					<div class="panel-heading" style="background: blue;">
+	   						 <h3 class="panel-title" style="color:#fff;"> Your Total: </h3>
+	  					</div>
+	  						<div class="panel-body yourTotal">0</div>
+					</div>
+			  </div>
+			  <div class="col-md-2"></div>
+			</div>
+			<div class="row">
+				  <div class="col-md-2"></div>
+				  <div class="col-md-2 img-responsive footer red"> <img src="Assets/Images/red.PNG" style="width: 150px;height: 150px" alt="red"></div>
+				  <div class="col-md-2 img-responsive footer green"><img src="Assets/Images/green.PNG" style="width: 150px;height: 150px" alt="blue"></div>
+				  <div class="col-md-2 img-responsive footer blue"><img src="Assets/Images/blue.PNG" style="width: 150px;height: 150px" alt="green"></div>
+				  <div class="col-md-2 img-responsive footer orange"><img src="Assets/Images/orange.PNG" style="width: 150px;height: 150px" alt="yellow"></div>
+				  <div class="col-md-2"></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="assets/Javascript/game.js"></script>
+	</body>
+</html>		
+
