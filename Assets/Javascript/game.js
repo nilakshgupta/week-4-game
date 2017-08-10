@@ -1,6 +1,7 @@
 
+$('#myaudio').attr('src','../Images/theme.mp3');
 $( document ).ready(function(){
-	$('#myaudio').attr('src','track1.mp3');
+	
 // random no. generator to start the game
 	var randomNumber = Math.floor((Math.random() * 102) + 19);
 
